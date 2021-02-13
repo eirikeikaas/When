@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/Quick/Quick.git",
                  .upToNextMinor(from: "2.2.0")),
         .package(url: "https://github.com/Quick/Nimble.git",
-                 .upToNextMinor(from: "8.0.5"))
+                 .upToNextMinor(from: "9.0.0"))
     ],
     targets: [
         .target(name: "When",
